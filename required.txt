@@ -1,0 +1,14 @@
+// const url =
+// 	"https://api.themoviedb.org/3/movie/top_rated?api_key=" +
+// 	apiKey +
+// 	"&language=en-US&page=1";
+
+const url2 =
+	"https://api.themoviedb.org/3/movie/top_rated?api_key=" +
+	TMDB_API_KEY +
+	"&language=en-US&page=2";
+// https://api.themoviedb.org/3/movie/550?api_key=49ac2c3a54162a5c9f0fb8714f93f10b
+// const url = "http://www.omdbapi.com/?apikey=d58765a7&";
+
+mufarodondo7@gmail.com
+Jesus Christ Is Lord
