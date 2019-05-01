@@ -16,7 +16,7 @@ const fetchSearch = keyword => {
 	fetch(url)
 		.then(res => res.json())
 		.then(data => {
-			if (data) {
+			if (data.Search !== undefined) {
 				data.Search.forEach(movie => {
 					const html =
 						'<div class="movie-card"><img src="' +
@@ -31,7 +31,10 @@ const fetchSearch = keyword => {
 					renderHTML(html);
 				});
 			} else {
-				const html = "<h1>No movies found for " + keyword + "</h>";
+				const html =
+					'<h1 style="color:black;font-family:monospace;">No ' +
+					keyword +
+					" movies found</h>";
 				renderHTML(html);
 			}
 		});
